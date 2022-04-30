@@ -11,7 +11,8 @@ const ActivitiesList = () => {
         .reverse()
         .map((item) => (
           <Activity
-              // eslint-disable-next-line no-underscore-dangle
+            // eslint-disable-next-line react/jsx-props-no-multi-spaces
+            // eslint-disable-next-line no-underscore-dangle
             key={item._id}
             item={item}
           />
