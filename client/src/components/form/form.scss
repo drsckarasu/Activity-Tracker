@@ -1,0 +1,37 @@
+.add-activity {
+    background-color: #ebfef2;
+    border: 2px solid #bcc1cb;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+    border-radius: 8px;
+    h3 {
+        color: #49525d;
+    }
+    &_form {
+        flex: 1;
+        display: flex; 
+        justify-content: space-between;
+        padding: 0 20px;
+        .activity-input {
+            width: 100%;
+            margin: 0 10px;
+            border: 1px solid #bcc1cb;
+            border-radius: 4px;
+            padding-left: 5px;
+            flex: 1;
+        }
+        .activity-type {
+            flex: 2;
+        }
+        button {
+            background-color: #49525d;
+            border: 1px solid #bcc1cb;
+            color: #fff;
+            border-radius: 4px;
+            padding: 10px 40px;
+            margin-left: 20px;
+        }
+    }
+}

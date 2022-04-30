@@ -1,0 +1,21 @@
+.total-data{
+  display: flex;
+  flex-direction: column;
+  background-color: #f1ebfd;
+  border: 2px solid #bcc1cb;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  color: #49525d;
+  & > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:first-of-type {
+      margin-bottom: 10px;
+    }
+    h4, p {
+      margin: 0;
+    }
+  }
+}

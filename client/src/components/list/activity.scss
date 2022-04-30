@@ -1,0 +1,14 @@
+.activity{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf0e9;
+  border: 2px solid #bcc1cb;
+  border-radius: 4px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  p {
+    color: #4f5964;
+    flex: 1;
+  }
+}

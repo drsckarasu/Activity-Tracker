@@ -1,0 +1,20 @@
+.longest-data{
+  display: flex;
+  flex-direction: column;
+  background-color: #fcecec;
+  border: 2px solid #bcc1cb;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  color: #49525d;
+  div{
+    h3{
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .longest-data_info{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
